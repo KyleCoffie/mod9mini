@@ -1,0 +1,43 @@
+.left-container{
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.right-container{
+    border: border-primary;
+}
+
+.carousel.item > a > img{
+width: 100%; /* use this, or not */
+margin: auto;
+}
+.body{
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, rgb(138, 180, 249), #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+}
+.btn:hover{
+    background-color: rgb(138, 180, 249);
+}
+
+/* .btn-grad {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ } */
